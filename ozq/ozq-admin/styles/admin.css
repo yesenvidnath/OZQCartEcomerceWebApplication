@@ -1,0 +1,201 @@
+﻿:root {
+    --gb-main: #FFFFFF;
+    --primary-color: #E8B500;
+    --secondary-color: #1D1B1B;
+    --secondary-font: #1E1E1E;
+    --specal-bg-color: #EBEBEB;
+}
+
+
+.body {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+    background: black;
+    color: var(--gb-main);
+}
+
+
+/* Navigation Bar Styles */
+
+nav{
+    padding: 25px 20px;
+    background: var(--secondary-color);
+}
+
+nav h6 {
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+nav img {
+    width: 55px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Left Side and the right side of the Administrative Panel */
+
+.admin-panel-main-styles {
+    height: 100vh;
+}
+
+.admin-panel-main-styles .admin-panel-left-side-wraper {
+    max-height: 100vh;
+    background: var(--secondary-color);
+    padding-top: 80px;
+}
+
+.admin-panel-main-styles .admin-panel-content-side-wrapper {
+    height: 100vh;
+    background: var(--gb-main);
+    color: var(--secondary-color);
+    padding: 5em 5em;
+    overflow: scroll;
+
+}
+
+.col-10.admin-panel-content-side-wrapper .col-md-4 .card-body {
+    padding: 60px 30px;
+    background: var(--primary-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.admin-panel-content-side-wrapper .card {
+    border: 0;
+}
+
+.admin-panel-content-side-wrapper .card-body {
+    border-radius:10px;
+}
+
+.admin-panel-content-side-wrapper .card-title {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.admin-panel-content-side-wrapper .card-text {
+    color: white;
+    font-size: 20px;
+}
+
+.admin-panel-content-side-wrapper .card-body span {
+    background: var(--secondary-color);
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.admin-panel-content-side-wrapper .card-body a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: var(--gb-main);
+    background: var(--secondary-color);
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+}
+
+.admin-panel-content-side-wrapper .card-body a i{
+    margin-right: 6px;
+}
+
+
+.admin-panel-content-side-wrapper .btn-primary{
+    background: var(--primary-color);
+    border:0;
+}
+
+.admin-panel-content-side-wrapper .btn-primary:hover{
+    background:var(--secondary-color);
+}
+
+.admin-panel-content-side-wrapper input {
+    background: var(--primary-color);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 10px;
+}
+
+.admin-panel-content-side-wrapper .form-control {
+    background: white !important;
+    border: 1px solid gray !important;
+    margin: 0 0 20px 0;
+    color:var(--secondary-color);
+}
+
+.buttongroupmain{
+    margin-top:20px;
+}
+
+.Comment-table-main-wrapper .row {
+    background: black;
+    margin-bottom: 10px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: var(--gb-main);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Admin Left Side Panel Tabindex */
+.admin-panel-left-side-wraper .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #fff;
+}
+
+.admin-panel-left-side-wraper .nav-pills .nav-link {
+    font-size: 20px;
+    color: var(--primary-color) !important;
+    padding: 30px 40px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.admin-panel-left-side-wraper .nav-pills i{
+    margin-right: 10px
+}
+
+.admin-panel-left-side-wraper .nav-pills .nav-link:hover {
+    background: var(--primary-color);
+    color: var(--gb-main) !important;
+}
+
+.i-tag-custom{
+
+}
+
+
+.nav-link span {
+    background: #e8b500;
+    padding: 10px 14px;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+
+span#ContentPlaceHolder1_totalOrdersLabel {
+    top: 80px;
+}
+
+span#ContentPlaceHolder1_totalProductsLabel {
+    top: 20.5em;
+}
+
+span#ContentPlaceHolder1_totalCustomersLabel {
+    top: 9em;
+    left: 145px;
+}
+
+span#ContentPlaceHolder1_totalProductsLabel {
+    top: 14.5em;
+}
+
+
+.order-tab-main-wrapper-top input{
+    width: 100%;
+}
